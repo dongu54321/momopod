@@ -15,7 +15,8 @@ sudo apt -f install ./rustdesk.deb -y
 rm ./rustdesk.deb
 # set password
 sleep 5
-sudo rustdesk --password DragonaKnight6789\!\@\#
+bash -c 'sudo rustdesk --password DragonaKnight6789\!\@\#'
 # get rustdesk id
 sudo rustdesk --get-id
-    #history -c && echo '' > ~/.bash_history
+echo sudo rustdesk --get-id
+history -c && echo 'clear' > ~/.bash_history
