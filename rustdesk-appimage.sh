@@ -7,4 +7,4 @@ download_file=./rustdesk.AppImage
 
 wget -q --show-progress $download_url -O $download_file
 chmod +x rustdesk.AppImage
-./rustdesk.AppImage
+./rustdesk.AppImage &>/dev/null &
